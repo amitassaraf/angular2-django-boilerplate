@@ -5,5 +5,8 @@
     "angular_app_name": "{{cookiecutter.app_title | replace(cookiecutter.app_title | first, cookiecutter.app_title | first | lower, 1) | replace(' ', '')}}",
     "email": "amitassaraf@me.com",
     "description": "An angular 2 & django boilerplate",
-    "github_username": "amitassaraf"
+    "github_username": "amitassaraf",
+    "_copy_without_render": [
+        "*node_modules"
+    ]
 }

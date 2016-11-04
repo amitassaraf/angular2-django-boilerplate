@@ -18,7 +18,7 @@ const HtmlElementsPlugin = require('./html-elements-plugin');
  * Webpack Constants
  */
 const METADATA = {
-  title: '{{cookiecutter.gihub_repository_name}}',
+  title: '{{cookiecutter.github_repository_name}}',
   baseUrl: '/',
   isDevServer: helpers.isWebpackDevServer()
 };
