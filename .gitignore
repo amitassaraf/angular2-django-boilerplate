@@ -113,3 +113,4 @@ env
 site
 
 scripts/make_angular_templates_raw.py
+*/src/frontend/node_modules

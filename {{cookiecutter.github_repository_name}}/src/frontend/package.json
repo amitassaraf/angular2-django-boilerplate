@@ -150,7 +150,7 @@
     "typedoc": "^0.4.4",
     "typescript": "^2.0.0-beta",
     "url-loader": "^0.5.7",
-    "webpack": "^2.1.0-beta.22",
+    "webpack": "2.1.0-beta.22",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-dev-server": "^2.1.0-beta.0",
     "webpack-md5-hash": "^0.0.5",
