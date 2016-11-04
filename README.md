@@ -1,5 +1,7 @@
 # cookiecutter-angular2-django
 
+![enter image description here](https://travis-ci.org/agconti/cookiecutter-django-rest.svg?branch=master)
+
 Overview 
 ===
 This is a flexiable boilerplate for Angular 2 and Django.
