@@ -1,3 +1,4 @@
+{% raw %}
 describe('App', () => {
 
   beforeEach(() => {
@@ -30,3 +31,5 @@ describe('App', () => {
   });
 
 });
+
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import {
   addProviders,
   inject
@@ -19,3 +20,5 @@ describe('App', () => {
   }));
 
 });
+
+{% endraw %}

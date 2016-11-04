@@ -1,3 +1,4 @@
+{% raw %}
 /* This module is an example how you can package all services and components
  from Angular2-Material into one Angular2 module, which you can import in other modules
  */
@@ -55,3 +56,5 @@ export class MdModule {
     }
 }
 
+
+{% endraw %}

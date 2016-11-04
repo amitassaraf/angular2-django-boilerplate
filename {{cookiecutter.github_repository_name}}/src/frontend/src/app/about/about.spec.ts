@@ -1,3 +1,4 @@
+{% raw %}
 import { TestComponentBuilder } from '@angular/core/testing';
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
@@ -33,3 +34,5 @@ describe('About', () => {
   }));
 
 });
+
+{% endraw %}

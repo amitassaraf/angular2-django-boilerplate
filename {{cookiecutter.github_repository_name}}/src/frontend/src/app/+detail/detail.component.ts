@@ -1,3 +1,4 @@
+{% raw %}
 import { Component } from '@angular/core';
 
 @Component({
@@ -17,3 +18,5 @@ export class Detail {
   }
 
 }
+
+{% endraw %}

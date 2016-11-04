@@ -1,3 +1,4 @@
+{% raw %}
 import { Component, Directive, ElementRef, Renderer } from '@angular/core';
 /*
  * Directive
@@ -16,3 +17,5 @@ export class XLarge {
     renderer.setElementStyle(element.nativeElement, 'fontSize', 'x-large');
   }
 }
+
+{% endraw %}

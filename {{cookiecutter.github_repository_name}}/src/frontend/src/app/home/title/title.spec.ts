@@ -1,3 +1,4 @@
+{% raw %}
 import {
   addProviders,
   inject
@@ -39,3 +40,5 @@ describe('Title', () => {
   }));
 
 });
+
+{% endraw %}

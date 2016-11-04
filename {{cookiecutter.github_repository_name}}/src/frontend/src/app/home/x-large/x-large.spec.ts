@@ -1,3 +1,4 @@
+{% raw %}
 import {
   async,
   addProviders,
@@ -29,3 +30,5 @@ describe('x-large directive', () => {
   })));
 
 });
+
+{% endraw %}

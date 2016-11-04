@@ -1,3 +1,4 @@
+{% raw %}
 import { Injectable } from '@angular/core';
 
 @Injectable()
@@ -35,3 +36,5 @@ export class AppState {
     return JSON.parse(JSON.stringify( object ));
   }
 }
+
+{% endraw %}

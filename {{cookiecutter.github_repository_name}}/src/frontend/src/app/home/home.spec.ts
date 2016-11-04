@@ -1,3 +1,4 @@
+{% raw %}
 import {
   addProviders,
   inject
@@ -46,3 +47,5 @@ describe('Home', () => {
   }));
 
 });
+
+{% endraw %}

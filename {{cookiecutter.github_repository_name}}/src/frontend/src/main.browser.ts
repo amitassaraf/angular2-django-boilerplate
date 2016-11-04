@@ -1,3 +1,4 @@
+{% raw %}
 /*
  * Angular bootstraping
  */
@@ -25,3 +26,5 @@ export function main(): Promise<any> {
 
 bootloader(main);
 
+
+{% endraw %}

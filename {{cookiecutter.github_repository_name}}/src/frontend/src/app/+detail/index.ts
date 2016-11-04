@@ -1,3 +1,4 @@
+{% raw %}
 import { BrowserModule } from '@angular/platform-browser'
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -25,3 +26,5 @@ export const routes = [
 export default class AboutModule {
   static routes = routes;
 }
+
+{% endraw %}

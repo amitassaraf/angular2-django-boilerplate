@@ -1,3 +1,4 @@
+{% raw %}
 // TODO(gdi2290): switch to DLLs
 
 // Polyfills
@@ -45,3 +46,5 @@ if ('production' === ENV) {
   require('zone.js/dist/long-stack-trace-zone');
 
 }
+
+{% endraw %}

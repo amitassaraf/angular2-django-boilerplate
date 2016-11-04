@@ -1,3 +1,4 @@
+{% raw %}
 /*
  * Angular 2 decorators and services
  */
@@ -72,3 +73,5 @@ export class App {
  * For help or questions please contact us at @AngularClass on twitter
  * or our chat on Slack at https://AngularClass.com/slack-join
  */
+
+{% endraw %}

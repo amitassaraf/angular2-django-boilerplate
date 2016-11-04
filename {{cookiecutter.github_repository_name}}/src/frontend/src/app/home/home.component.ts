@@ -1,3 +1,4 @@
+{% raw %}
 import { Component } from '@angular/core';
 
 import { AppState } from '../app.service';
@@ -38,3 +39,5 @@ export class Home {
   }
 
 }
+
+{% endraw %}

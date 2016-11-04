@@ -1,3 +1,4 @@
+{% raw %}
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 /*
@@ -67,3 +68,5 @@ export class About {
   }
 
 }
+
+{% endraw %}
