@@ -11,6 +11,15 @@ Quickstart
 ===
 
 To begin:
+
+Either use -
+
+```bash
+cookiecutter gh:amitassaraf/angular2-django-boilerplate
+```
+
+or 
+
 ```bash
 git clone https://github.com/amitassaraf/angular2-django-boilerplate 
 
@@ -20,6 +29,7 @@ cookiecutter .
 ```
 
 Then fill in all the information asked.
+
 If you don't have cookie cutter, install it using:
 ```bash
 npm install cookiecutter -g
@@ -29,7 +39,7 @@ Frontend
 -----
 -----
 
-After running cookie cutter, enter yourappname/src/frontend
+After running cookiecutter, enter yourappname/src/frontend
 and run:
 ```bash
 sudo npm install
