@@ -1,0 +1,33 @@
+{% raw %}
+.card-container
+  h1.sample-content(x-large='') {{cookiecutter.github_repository_name}}
+    hr
+    div
+      | For hot module reloading run
+      pre.
+        npm run start:hmr
+    hr
+    div
+      h4 Local State
+      form((ngsubmit)='submitState(localState.value)', autocomplete='off')
+        input([value]='localState.value', (input)='localState.value = $event.target.value', placeholder='Submit Local State to App State', autofocus='')
+        button(md-raised-button='', color='primary') Submit Value
+      //
+        <input type="text" [value]="localState.value" (input)="localState.value = $event.target.value" autofocus>
+        Rather than wiring up two-way data-binding ourselves with [value] and (input)
+        we can use Angular's [(ngModel)] syntax
+        <input type="text" name="textInput" [(ngModel)]="localState.value" autofocus>
+      pre.
+        \nthis.localState = {{ localState | json }}
+      md-card
+        md-card-title Slider with Value
+        md-card-content
+          md-slider(value='24')
+      md-card
+        md-card-title Tooltips
+        md-card-content
+          button(md-raised-button='', md-tooltip='This is a tooltip!') Hello
+          button(md-raised-button='', md-tooltip='Another tooltip') World
+
+
+{% endraw %}

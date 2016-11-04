@@ -1,0 +1,13 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.sample-content {
+  flex: 1;
+}
+
+.card-container md-card {
+  margin: 5px;
+}
