@@ -1,4 +1,4 @@
-# angular2-django-boilerplate 
+# angular2 django boilerplate 
 by @amitassaraf
 
 ![enter image description here](https://travis-ci.org/agconti/cookiecutter-django-rest.svg?branch=master)
